@@ -42,8 +42,6 @@
   margin-right: 30px;
   height: 300px;
   width: 600px;
-  /* display: inline;
-  justify-content: space-between; */
 }
 
 .birthday input {
@@ -78,4 +76,62 @@ button a {
 
 button:hover {
   transform: scale(1.2);
+}
+
+@media only screen and (max-width: 1000px) {
+  .about p {
+    padding: 20px;
+    padding-top: 30px;
+  }
+  .about {
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    background-color: brown;
+    height: 300px;
+    /* margin-left: 30px; */
+    width: 50%;
+  }
+
+  .details {
+    background-color: brown;
+    /* margin-right: 30px; */
+    height: 300px;
+    width: 50%;
+  }
+
+  .birthday input {
+    width: 150px;
+    margin-left: 150px;
+    margin-top: 40px;
+    height: 30px;
+  }
+
+  .radio label input {
+    width: 30%;
+    /* margin-left: 130px; */
+    margin-top: 40px;
+    height: 15px;
+  }
+
+  button {
+    width: 150px;
+    /* margin-left: 220px; */
+    margin-top: 40px;
+    height: 30px;
+    border-radius: 20px;
+    border-color: black;
+    transition: transform 0.3s;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 885px) {
+  .birthday input {
+    width: 150px;
+    margin-right: 200px;
+    margin-top: 40px;
+    height: 30px;
+  }
 }
