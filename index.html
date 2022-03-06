@@ -8,29 +8,32 @@
     <title>Akan Name</title>
   </head>
   <body>
-    <div>
+    <div class="heading">
       <h1>Akan Names</h1>
     </div>
-    <div>
+    <div class="main">
       <div class="about">
         <p>
-          Wondering what your Akan name is? Just by filling your gender and date
-          of birth you can find out which day of the week you were born and your
-          Akan name.
+          Wondering what your Akan name is? <br />
+          Just by filling your gender and date of birth <br />
+          you can find out which day of the week you were born <br />
+          and your Akan name.
         </p>
       </div>
-      <div class="birthday">
-        <input type="date" id="date" name="Date" />
+      <div class="details">
+        <div class="birthday">
+          <input type="date" id="date" name="Date" />
+        </div>
+        <div class="radio">
+          <label for="">
+            <input type="radio" id="male" name="Male-Female" />Male
+          </label>
+          <label for="">
+            <input type="radio" id="female" name="Male-Female" />Female
+          </label>
+        </div>
+        <button>Get Akon Name</button>
       </div>
-      <div class="radio">
-        <label for="">
-          <input type="radio" id="male" name="Male-Female" />Male
-        </label>
-        <label for="">
-          <input type="radio" id="female" name="Male-Female" />Female
-        </label>
-      </div>
-      <button>Get Akon Name</button>
     </div>
     <script src="script.js"></script>
   </body>
