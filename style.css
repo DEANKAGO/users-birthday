@@ -10,6 +10,7 @@
 
 .heading h1 {
   margin-left: 20px;
+  padding-top: 10px;
 }
 
 .main {
@@ -17,7 +18,7 @@
   justify-content: space-between;
   padding-top: 100px;
   background-color: grey;
-  height: 600px;
+  height: 500px;
   background-repeat: no-repeat;
 }
 
@@ -59,4 +60,22 @@
   height: 20px;
 }
 
-button
+button {
+  width: 150px;
+  margin-left: 220px;
+  margin-top: 40px;
+  height: 40px;
+  border-radius: 20px;
+  border-color: black;
+  transition: transform 0.3s;
+}
+
+button a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+button:hover {
+  transform: scale(1.2);
+}
