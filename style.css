@@ -51,3 +51,12 @@
   margin-top: 40px;
   height: 30px;
 }
+
+.radio label input {
+  width: 50px;
+  margin-left: 130px;
+  margin-top: 40px;
+  height: 20px;
+}
+
+button
