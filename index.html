@@ -22,18 +22,34 @@
         </p>
       </div>
       <div class="details">
-        <div class="birthday">
-          <input type="date" id="date" name="Date" />
-        </div>
-        <div class="radio" id="radio">
-          <label for="">
-            <input type="radio" id="male" name="Male-Female" value="male" />Male
-          </label>
-          <label for="">
-            <input type="radio" id="female" name="Male-Female" value="female" />Female
-          </label>
-        </div>
-        <button><a href="#" onclick="picked()">Get Akon Name</a></button>
+        <form action="">
+          <div class="birthday">
+            <input type="date" id="date" name="Date" required />
+          </div>
+          <div class="radio" id="radio">
+            <label for="">
+              <input
+                type="radio"
+                id="male"
+                name="Male-Female"
+                value="male"
+                required
+              />Male
+            </label>
+            <label for="">
+              <input
+                type="radio"
+                id="female"
+                name="Male-Female"
+                value="female"
+                required
+              />Female
+            </label>
+          </div>
+          <button>
+            <a href="#" onclick="picked()">Get Akon Name</a>
+          </button>
+        </form>
       </div>
     </div>
     <footer>
